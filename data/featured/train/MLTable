@@ -1,0 +1,7 @@
+paths:
+- file: fe_loan_classification_train.parquet
+transformations:
+- read_parquet:
+    include_path_column: false
+    path_column: Path
+type: mltable
