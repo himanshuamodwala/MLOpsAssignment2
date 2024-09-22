@@ -1,0 +1,21 @@
+name: hpo-classification-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip=21.2.4
+  - scikit-learn
+  - scipy
+  - numpy
+  - azure-ai-ml
+  - azure-identity
+  - azure-core
+  - fsspec
+  - pandas
+  - xgboost
+  - azureml-inference-server-http
+  - pip:
+    - azureml-core
+    - azureml-fsspec
+    - azureml-mlflow
+    - mlflow-skinny
