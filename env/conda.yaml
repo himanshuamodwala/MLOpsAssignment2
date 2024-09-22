@@ -11,6 +11,8 @@ dependencies:
   - azure-identity
   - azure-core
   - fsspec
+  - pyarrow
+  - fastparquet
   - pandas
   - xgboost
   - pip:

@@ -27,10 +27,10 @@ def main():
         resource_group_name="hamodwala-rg",
         workspace_name="hamodwalaml",
     )
-    uri = "azureml://subscriptions/35fac7b7-ba23-43eb-8dbe-c317c1ac44af/resourcegroups/hamodwala-rg/workspaces/hamodwalaml/datastores/workspaceblobstore/paths/data/automlnew/fe_loan_classification_train.csv"
+    uri = "azureml://subscriptions/35fac7b7-ba23-43eb-8dbe-c317c1ac44af/resourcegroups/hamodwala-rg/workspaces/hamodwalaml/datastores/workspaceblobstore/paths/data/rai-featured/train/fe_loan_classification_train.parquet"
 
     # Load the Dataset
-    df = pandas.read_csv(uri)
+    df = pandas.read_parquet(uri)
 
     # Start Logging
     mlflow.start_run()
