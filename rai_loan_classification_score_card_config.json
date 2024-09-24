@@ -1,1 +1,0 @@
-{"Model": {"ModelName": "Loan classification", "ModelType": "Classification"}, "Metrics": {"accuracy_score": {"threshold": ">=0.5"}, "precision_score": {}}}
